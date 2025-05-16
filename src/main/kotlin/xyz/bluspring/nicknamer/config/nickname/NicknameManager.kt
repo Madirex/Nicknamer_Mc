@@ -78,9 +78,6 @@ object NicknameManager/*(val pathName: String)*/ {
         val nickname = nicknames[id] ?: return name
 
         return Text.literal("")
-            .append(name)
-            .append(" (")
             .append(nickname)
-            .append(")")
     }
 }
