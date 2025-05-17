@@ -13,15 +13,13 @@ A client-side mod that allows you to add nicknames and pronouns to pretty much a
 [Cloth Config](https://modrinth.com/mod/cloth-config)
 
 ## Features
-- Nicknames (duh)
-- Pronouns
-- Pronoun Profiles
+- Nicknames.
+- Pronouns.
+- Pronoun Profiles.
    - Designed specifically for roleplay characters and DID systems!
-- Setting nicknames using Minecraft's /tellraw format
-- Setting nicknames from what the player's current display name in Tab is
-- [PronounDB](https://pronoundb.org) support
+- Setting nicknames using Minecraft's /tellraw format.
+- Setting nicknames from what the player's current display name in Tab is.
+- [PronounDB](https://pronoundb.org) support.
 
 ## Commands
-Will be worked on soon.
-The current commands that are available can be autocompleted
-by typing `/nickc` and `/pronounsc`.
+The current commands that are available can be autocompleted by typing `/nickc` and `/pronounsc`.
