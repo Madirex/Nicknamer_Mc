@@ -60,7 +60,7 @@ class NicknamerModMenuIntegration : ModMenuApi {
                         addEntry(
                             entryBuilder()
                                 .startTextField(Text.literal(nameFormat.displayName), format)
-                                .setDefaultValue("%username% (%nickname%)")
+                                .setDefaultValue("%nickname%")
                                 .setSaveConsumer {
                                     ConfigManager.config.inGameFormat[nameFormat] = it
                                 }
@@ -84,7 +84,7 @@ class NicknamerModMenuIntegration : ModMenuApi {
                         addEntry(
                             entryBuilder()
                                 .startTextField(Text.literal(nameFormat.displayName), format)
-                                .setDefaultValue("%username% (%nickname%) - [%pronouns%]")
+                                .setDefaultValue("%nickname% - [%pronouns%]")
                                 .setSaveConsumer {
                                     ConfigManager.config.playerListFormat[nameFormat] = it
                                 }
@@ -108,7 +108,7 @@ class NicknamerModMenuIntegration : ModMenuApi {
                         addEntry(
                             entryBuilder()
                                 .startTextField(Text.literal(nameFormat.displayName), format)
-                                .setDefaultValue("%username% (%nickname%) - [%pronouns%]")
+                                .setDefaultValue("%nickname% - [%pronouns%]")
                                 .setSaveConsumer {
                                     ConfigManager.config.chatFormat[nameFormat] = it
                                 }
