@@ -4,8 +4,8 @@
 
 A client-side mod that allows you to add nicknames and pronouns to pretty much any player.
 
-## Downloads
-[Modrinth](https://modrinth.com/mod/nicknamer), [CurseForge](https://curseforge.com/minecraft/mc-mods/nicknamer)
+## Original mod
+[BluSpring](https://github.com/BluSpring/Nicknamer)
 
 ## Required Mods
 [Fabric API](https://modrinth.com/mod/fabric-api), 
